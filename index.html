@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>About Elon</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./js/scroll.js"></script>
+
+  </head>
+
+  <body>
+
+    <main>
+      <div id="split-left">
+        <div class="centered">
+          <img src="images/musk.png" />
+          <nav id="navigation">
+            <ul>
+              <li><a href="index.html" class="menu" id="nav1">About</a></li>
+              <li>
+                <a href="index.html#life" class="menu" id="nav2">early life</a>
+              </li>
+              <li>
+                
+                <button class="dropdown-btn">Business 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="#job1" class="menu2" id="nav3" >Zip2</a>
+                  <a href="#job2" class="menu2" id="nav4" >PayPal</a>
+                  <a href="#job3" class="menu2" id="nav5" >SpaceX</a>
+                  <a href="#job4" class="menu2" id="nav6" >Tesla</a>
+                </div>
+              </li>
+              
+              <li>
+                <a href="index.html#wealth" class="menu" id="nav7">Wealth</a>
+              </li>
+              <li>
+                <a href="index.html#politics" class="menu" id="nav8">Politics</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <script>
+          /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+          var dropdown = document.getElementsByClassName("dropdown-btn");
+          var i;
+          
+          for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "grid") {
+            dropdownContent.style.display = "none";
+            } else {
+            dropdownContent.style.display = "grid";
+            }
+            });
+          }
+          </script>
+      </div>
+      <div id="split-right">
+        <section id="about">
+          <div class="content">
+            <div id="about-items">
+              <h1 class="split-title">
+                <p>Elon</p>
+                <p>Musk</p>
+              </h1>
+              <h3>born June 28, 1971</h3>
+              <span id="person-desc">
+                <p>entrepreneur</p>
+                <i class="fa fa-star"></i>
+                <p>investor</p>
+                <i class="fa fa-star"></i>
+                <p>business magnate</p>
+                <i class="fa fa-star"></i>
+              </span>
+            </div>
+            <div id="networks">
+              <span id="twitter">
+                <a href="https://twitter.com/elonmusk">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </span>
+              <span id="facebook">
+                <a href="https://www.facebook.com/groups/ElonMusk">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </span>
+              <span id="instagram">
+                <a href="https://www.instagram.com/elonmusk/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </section>
+        <section href="life" id="life">
+          <div class="content">
+            <h1>Early life</h1>
+            <div class="block">
+              <div class="block-item">
+                <div class="job-title">
+                  <h2>Childhood and family</h2>
+                </div>
+                <div class="job-info">
+                  <p>
+                    Elon Reeve Musk was born on June 28, 1971, in Pretoria,
+                    South Africa. His mother is Maye Musk (née Haldeman), a
+                    model and dietitian born in Saskatchewan, Canada, but raised
+                    in South Africa. His father is Errol Musk, a White South
+                    African electromechanical engineer, pilot, sailor,
+                    consultant, and property developer who was once a half-owner
+                    of a Zambian emerald mine near Lake Tanganyika. Musk has a
+                    younger brother, Around age 10, Musk developed an interest
+                    in computing and video games and acquired a Commodore
+                    VIC-20. He learned computer programming using a manual and,
+                    at age 12, sold the code of a BASIC-based video game he
+                    created called Blastar to PC and Office Technology magazine
+                    for approximately $500. An awkward and introverted child,
+                    Musk was bullied throughout his childhood and was once
+                    hospitalized after a group of boys threw him down a flight
+                    of stairs. He attended Waterkloof House Preparatory School
+                    and Bryanston High School before graduating from Pretoria
+                    Boys High School.
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-item">
+                <div class="job-title">
+                  <h2>Education</h2>
+                </div>
+                <div class="job-info">
+                  <p>
+                    Aware that it would be easier to enter the United States
+                    from Canada, Musk applied for a Canadian passport through
+                    his Canadian-born mother. While awaiting the documentation,
+                    he attended the University of Pretoria for five months; this
+                    allowed him to avoid mandatory service in the South African
+                    military.Musk arrived in Canada in June 1989, and lived with
+                    a second cousin in Saskatchewan for a year, working odd jobs
+                    at a farm and lumber-mill. In 1990, he entered Queen's
+                    University in Kingston, Ontario. Two years later, he
+                    transferred to the University of Pennsylvania, where he
+                    graduated in 1995 with a Bachelor of Arts degree in physics
+                    and a Bachelor of Science degree in economics. In 1994, Musk
+                    held two internships in Silicon Valley during the summer: at
+                    energy storage startup Pinnacle Research Institute, which
+                    researched electrolytic ultracapacitors for energy storage,
+                    and at the Palo Alto-based startup Rocket Science Games. In
+                    1995, he was accepted to a Doctor of Philosophy (Ph.D.)
+                    program in materials science at Stanford University in
+                    California. Musk attempted to get a job at Netscape but
+                    never received a response to his inquiries. He dropped out
+                    of Stanford after two days, deciding instead to join the
+                    Internet boom and launch an Internet startup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h1>Busines Carrer</h1>
+            
+              <section id="job1">
+              <div class="block-item">
+                <div class="job-title">
+                  <h2>Zip2</h2>
+                </div>
+                <div class="job-info">
+                  <p>
+                    In 1995, Musk, his brother Kimbal, and Greg Kouri founded
+                    web software company Zip2 with funds from angel investors.
+                    They housed the venture at a small rented office in Palo
+                    Alto. The company developed and marketed an Internet city
+                    guide for the newspaper publishing industry, with maps,
+                    directions, and yellow pages. Musk says that before the
+                    company became successful, he could not afford an apartment
+                    and instead rented an office and slept on the couch and
+                    showered at the YMCA, and shared one computer with his
+                    brother. When he and Kimbal could not agree on business
+                    decisions, they settled their differences through wrestling.
+                    According to Musk, "The website was up during the day and I
+                    was coding it at night, seven days a week, all the time."
+                    The Musk brothers obtained contracts with The New York Times
+                    and the Chicago Tribune, and persuaded the board of
+                    directors to abandon plans for a merger with CitySearch.
+                    Musk's attempts to become CEO, a position held by its
+                    Chairman Rich Sorkin, were thwarted by the board. Compaq
+                    acquired Zip2 for $307 million in cash in February 1999, and
+                    Musk received $22 million for his 7-percent share.
+                  </p>
+                </div>
+              </div>
+              </section>
+              <section id="job2">
+              <div class="block-item">
+                <div class="job-title">
+                  <h2>X.com and PayPal</h2>
+                </div>
+                <div class="job-info">
+                  <p>
+                    In 1999, Musk co-founded X.com, an online financial services
+                    and e-mail payment company. The startup was one of the first
+                    federally insured online banks, and, in its initial months
+                    of operation, over 200,000 customers joined the service. The
+                    company's investors regarded Musk as inexperienced and had
+                    him replaced with Intuit CEO Bill Harris by the end of the
+                    year. The following year, X.com merged with online bank
+                    Confinity to avoid competition. Founded by Max Levchin and
+                    Peter Thiel, Confinity had its own money-transfer service,
+                    PayPal, which was more popular than X.com's service. Within
+                    the merged company, Musk returned as CEO. Musk's preference
+                    for Microsoft software over Linux created a rift in the
+                    company and caused Thiel to resign. Due to resulting
+                    technological issues and lack of a cohesive business model,
+                    the board ousted Musk and replaced him with Thiel in
+                    September 2000.Under Thiel, the company focused on the
+                    PayPal service and was renamed PayPal in 2001. In 2002,
+                    PayPal was acquired by eBay for $1.5 billion in stock, of
+                    which Musk—the largest shareholder with 11.72% of
+                    shares—received $175.8 million.
+                  </p>
+                </div>
+              </div>
+              </section>
+              <section id="job3">
+              <div class="block-item">
+                <div class="job-title">
+                  <h2>SpaceX</h2>
+                </div>
+                <div class="job-info">
+                  <p>
+                    In 2001, Musk became involved with the nonprofit Mars
+                    Society. He was inspired by plans to place a growth-chamber
+                    for plants on Mars and discussed funding the project
+                    himself. In October 2001, Musk traveled to Moscow with Jim
+                    Cantrell and Mike Griffin to buy refurbished
+                    Intercontinental ballistic missiles (ICBMs) that could send
+                    the greenhouse payloads into space. He met with companies
+                    NPO Lavochkin and Kosmotras; however, Musk was seen as a
+                    novice and was even spat on by one of the Russian chief
+                    designers. The group returned to the United States
+                    empty-handed. In February 2002, the group returned to Russia
+                    to look for three ICBMs. They had another meeting with
+                    Kosmotras and were offered one rocket for $8 million, which
+                    Musk rejected. Musk instead decided to start a company that
+                    could build affordable rockets. With $100 million of his
+                    early fortune, Musk founded Space Exploration Technologies
+                    Corp., traded as SpaceX, in May 2002. As of 2021, he remains
+                    the company's CEO and also holds the title of Chief
+                    Engineer. SpaceX attempted its first launch of the Falcon 1
+                    rocket in 2006, and although the rocket failed to reach
+                    Earth orbit, it was awarded a Commercial Orbital
+                    Transportation Services program contract from NASA later
+                    that year. After two more failed attempts, which reportedly
+                    caused Musk so much stress that he was "waking from
+                    nightmares, screaming and in physical pain," SpaceX
+                    succeeded in launching the Falcon 1 into orbit in 2008,
+                    making it the first private liquid-fuel rocket to do so.[82]
+                    Later that year, SpaceX received a $1.6 billion Commercial
+                    Resupply Services program contract from NASA for 12 flights
+                    of its Falcon 9 rocket and Dragon spacecraft to the
+                    International Space Station, replacing the Space Shuttle
+                    after its 2011 retirement. In 2012, the Dragon vehicle
+                    berthed with the ISS, a first for a private enterprise.
+                    Working towards its goal of reusable rockets, in 2015,
+                    SpaceX successfully landed the first stage of a Falcon 9.
+                    Landings were later achieved on an autonomous spaceport
+                    drone ship, an ocean-based recovery platform. In 2018,
+                    SpaceX launched the Falcon Heavy; the inaugural mission
+                    carried Musk's personal Tesla Roadster as a dummy payload.
+                    In 2017, SpaceX unveiled its next-generation launch vehicle
+                    and spacecraft system, Big Falcon Rocket, later renamed to
+                    Starship, which would support all SpaceX launch service
+                    provider capabilities. In 2018, SpaceX announced a planned
+                    2023 lunar circumnavigation mission, a private flight called
+                    dearMoon project. In 2020, SpaceX launched its first crewed
+                    flight, the Demo-2, becoming the first private company to
+                    place a person into orbit and dock a crewed spacecraft with
+                    the ISS. SpaceX began development of the Starlink
+                    constellation of low Earth orbit satellites in 2015 to
+                    provide satellite Internet access, with the first two
+                    prototype satellites launched in February 2018. A second set
+                    of test satellites and the first large deployment of a piece
+                    of the constellation occurred in May 2019, when the first 60
+                    operational satellites were launched. The total cost of the
+                    decade-long project to design, build, and deploy the
+                    constellation is estimated by SpaceX to be about $10 billion
+                  </p>
+                </div>
+              </div>
+              </section>
+              <section id="job4">
+              <div class="block-item">
+                <div class="job-title">
+                  <h2 >Tesla</h2>
+                </div>
+                <div class="job-info">
+                  <p>
+                    Tesla, Inc.—originally Tesla Motors—was incorporated in July
+                    2003 by Martin Eberhard and Marc Tarpenning, who financed
+                    the company until the Series A round of funding.[99] Both
+                    men played active roles in the company's early development
+                    prior to Musk's involvement. Musk led the Series A round of
+                    investment in February 2004; he invested $6.5 million,
+                    became the majority shareholder, and joined Tesla's board of
+                    directors as chairman. Musk took an active role within the
+                    company and oversaw Roadster product design but was not
+                    deeply involved in day-to-day business operations. Following
+                    a series of escalating conflicts in 2007 and the 2008
+                    financial crisis, Eberhard was ousted from the firm. Musk
+                    assumed leadership of the company as CEO and product
+                    architect in 2008. A 2009 lawsuit settlement with Eberhard
+                    designated Musk as a Tesla co-founder, along with Tarpenning
+                    and two others. As of 2019, Elon Musk was the longest
+                    tenured CEO of any automotive manufacturer globally. In
+                    2021, Musk nominally changed his title to Technoking while
+                    retaining his position as CEO. Tesla first built an electric
+                    sports car, the Roadster, in 2008. With sales of about 2,500
+                    vehicles, it was the first serial production all-electric
+                    car to use lithium-ion battery cells. Tesla began delivery
+                    of its four-door Model S sedan in a cross-over, the Model X
+                    was launched in 2015. A mass market sedan, the Model 3, was
+                    released in 2017. As of March 2020, it is the world's
+                    best-selling electric car, with more than 500,000 units
+                    delivered. A fifth vehicle, the Model Y crossover, was
+                    launched in 2020. The Cybertruck, an all-electric pickup
+                    truck, was unveiled in 2019. Under Musk, Tesla has also
+                    constructed multiple lithium-ion battery and electric
+                    vehicle subassembly factories, such as Gigafactory 1 in
+                    Nevada and Gigafactory 3 in China. Since its initial public
+                    offering in 2010. Tesla stock has risen significantly; it
+                    became the most valuable carmaker in summer 2020, and it
+                    entered the S&P 500 later that year. In October 2021 it
+                    reached a market capitalization of $1 trillion, the sixth
+                    company to do so in U.S. history. On November 6, 2021, Musk
+                    proposed on Twitter selling 10% of his Tesla stock, since
+                    "much is made lately of unrealized gains being a means of
+                    tax avoidance". After more than 3.5 million Twitter accounts
+                    supported the sale, Musk sold $6.9 billion of Tesla stock in
+                    the week ending November 12, and a total of $16.4 billion by
+                    year end, reaching the 10% target. In February 2022, The
+                    Wall Street Journal reported that both Elon and Kimbal Musk
+                    were under investigation by the SEC for possible insider
+                    trading related to the sale.
+                  </p>
+                </div>
+              </div>
+            </section>
+          
+          </div>
+        </section>
+
+        <section id="wealth">
+          <div class="content">
+            <h1>Wealth</h1>
+            <div class="interests">
+              <p>
+                Musk made $165 million when PayPal was sold to eBay in 2002. He
+                was first listed on the Forbes Billionaires List in 2012, with a
+                net worth of $2 billion. At the start of 2020, Musk had a net
+                worth of $27 billion. By the year's end his net worth had
+                increased by $150 billion, largely driven by his ownership of
+                around 20% of Tesla stock. During this, Musk's net worth was
+                often volatile. For example, it dropped $16.3 billion in
+                September, the largest single-day plunge in the history of the
+                Bloomberg Billionaires Index. In November of that year, Musk
+                passed Facebook co-founder Mark Zuckerberg to become the
+                third-richest person in the world; a week later he passed
+                Microsoft co-founder Bill Gates to become the second-richest. In
+                January 2021, Musk, with a net worth of $185 billion, surpassed
+                Amazon founder Jeff Bezos to become the richest person in the
+                world. Bezos reclaimed the top spot the following month. On
+                September 27, 2021, Forbes announced that Musk had a net worth
+                of over $200 billion, and was the richest person in the world,
+                after Tesla stock surged. In November 2021, Musk became the
+                first person with a net worth over $300 billion. Around
+                three-quarters of Musk's wealth derives from Tesla. Musk does
+                not receive a salary from Tesla; he agreed in 2018 to a
+                compensation plan with the board that ties his personal earnings
+                to Tesla's valuation and revenue. The deal stipulated that Musk
+                only receives the compensation if Tesla reaches certain market
+                values. It was the largest such deal ever done between a CEO and
+                board. In the first award, given in May 2020, he was eligible to
+                purchase 1.69 million TSLA shares (about 1% of the company) at
+                below-market prices, which was worth about $800 million. Musk
+                paid $455 million in taxes on $1.52 billion of income between
+                2014 and 2018. According to ProPublica, Musk paid no federal
+                income taxes in 2018. His 2021 tax bill was estimated at $12
+                billion based on his sale of $14 billion worth of Tesla stock
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="politics">
+          <div class="content">
+            <h1>Impact in politics</h1>
+            <div class="interests">
+              <p>
+                In 2015, Musk stated he was a "significant (though not top-tier)
+                donor to Democrats" but that he also gives heavily to
+                Republicans. Musk said that political contributions are a
+                requirement to have a voice in the United States government.
+                Musk criticized Donald Trump for his stance on climate change
+                and after joining Trump's two business advisory councils, Musk
+                resigned from both in June 2017 in protest against Trump's
+                decision to withdraw the United States from the Paris Agreement.
+                In the 2020 Democratic presidential primaries, Musk endorsed
+                candidate Andrew Yang and expressed support for his proposed
+                universal basic income;[293] he endorsed Kanye West's
+                independent campaign in the general election. Musk has stated
+                that he thinks a theoretical government on Mars should be direct
+                democracy. In September 2021, following the adoption of Texas'
+                strict abortion restrictions, Texas Governor Greg Abbott stated
+                that Musk and SpaceX supported Texas' "social policies". In
+                response, Musk stated, "In general, I believe government should
+                rarely impose its will upon the people, and, when doing so,
+                should aspire to maximize their cumulative happiness. That said,
+                I would prefer to stay out of politics." Regarding Democratic
+                proposals for increased taxes on billionaires, Musk's responses
+                have included critical policy remarks and lashing out at
+                proponents such as Senator Ron Wyden. 
+                <p>
+                In July 2020, Musk tweeted
+                "Pronouns suck" to significant backlash on Twitter, including
+                from his partner Grimes. The tweet has been perceived by some as
+                transphobic and an attack on non-binary identities. In a series
+                of December 2020 tweets, Musk again mocked the use of pronouns.
+                The Human Rights Campaign, which had previously given Tesla the
+                number one ranking on its Corporate Equality Index, criticized
+                his tweets and called for an apology. 
+                </p>
+                Musk has stated that he
+                does not believe the U.S. government should provide subsidies to
+                companies; instead they should use a carbon tax to discourage
+                poor behavior. Musk says that the free market would achieve the
+                best solution, and that producing environmentally unfriendly
+                vehicles should come with its own consequences. His stance has
+                been called hypocritical as his businesses have received
+                billions of dollars in subsidies. In addition, Tesla made large
+                sums from government-initiated systems of zero emissions credits
+                offered in California and the United States federal level, which
+                enabled improved initial consumer adoption of Tesla vehicles, as
+                the tax credits given by governments enabled Tesla's battery
+                electric vehicles to be price-competitive, in relative
+                comparison with existing lower-priced internal combustion engine
+                vehicles. Notably, Tesla generates a sizeable portion of its
+                revenue from its sales of carbon credits granted to the company,
+                by both the European Union Emissions Trading System and the
+                Chinese national carbon trading scheme
+              </p>
+            </div>
+          </div>
+        </section>
+        <section  id="footer">
+         
+            <p class="centered">
+              This page provides characteristics of a famous person, specifically
+              Elon Musk, information based on wikipedia
+            </p>
+       
+        </section>
+      </div>
+    </main>
+    
+  </body>
+</html>
